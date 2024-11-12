@@ -31,6 +31,9 @@
     "env": {
       "node": true
     },
+    "rules": {
+    "vue/multi-word-component-names": "off"
+  },
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended"
@@ -39,6 +42,9 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {}
+  },
+  "engines": {
+  "node": "16.x"
   },
   "browserslist": [
     "> 1%",
